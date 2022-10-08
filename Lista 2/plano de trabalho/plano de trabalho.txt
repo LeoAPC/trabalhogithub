@@ -1,0 +1,13 @@
+plano = input("")
+salario = float(input(""))
+
+salarioA = salario + (salario * 0.10)
+salarioB = salario + (salario * 0.15)
+salarioC = salario + (salario * 0.20)
+
+if plano == "A":
+  print("Novo salário: R$%.2f" %(salarioA))
+elif plano == "B":
+  print("Novo salário: R$%.2f" %(salarioB))
+elif plano == "C":
+  print("Novo salário: R$%.2f" %(salarioC))
